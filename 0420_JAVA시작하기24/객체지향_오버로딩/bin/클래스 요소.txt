@@ -1,0 +1,24 @@
+class phone{ //객체 Object => 클래스는 함수라고도 한다.
+    //1.필드 멤버변수
+    class Phone 내부의 가장위에 선언된 변수는 멤버변수(variable) 필드(field)라 한다. => property 라고도 한다
+    String name ="알뜰";
+    
+    //2.생성자
+    클래스 이름에 괄호를 붙인다 그리고 스코프란 (프로그램의 실행영역범위){}
+    //기본생성자
+    Phone(){
+        
+    }
+    Phone(매개변수1){
+        this.name=매개변수1;
+    }
+    Phone(매개변수1, 매개변수2){
+        this.name=매개변수1;
+        this.name2=매개변수2;
+    }
+    //3.메소드
+    public void output(){
+        system.out.println("이름 : " + name);
+
+        
+    }
